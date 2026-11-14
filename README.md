@@ -32,33 +32,33 @@ So in a sense, this benchmark would reflect a scenario like the plugins being us
 
 | Implementation | CPU usage (core-s) | Network sent (MiB) | Heap allocated (MiB) | Peak network rate (MiB/s) | Worst tick (ms) |
 |---|---:|---:|---:|---:|---:|
-| AsyncArenasPlus | 0.234 | 0.196 | 5.30 | 0.609 | 1.74 |
-| FastArena | 0.406 | 0.277 | 98.84 | 1.842 | 6.76 |
-| AsyncArenas | 0.734 | 0.592 | 121.93 | 4.149 | 5.03 |
-| Blossom | 0.734 | 0.596 | 121.40 | 4.721 | 4.89 |
-| FastAsyncWorldEdit (FAWE) | 0.781 | 0.592 | 121.77 | 4.906 | 4.59 |
-| NanoArenas | 0.781 | 0.595 | 122.01 | 3.508 | 4.97 |
-| Arena Regeneration | 0.844 | 0.596 | 122.43 | 3.847 | 5.45 |
-| AreaResetterPro | 0.953 | 0.593 | 141.34 | 4.170 | 5.89 |
-| PerfAreaReset | 1.141 | 0.595 | 126.01 | 4.320 | 4.95 |
-| AreaReloader-FAWE | 3.609 | 5.877 | 896.37 | 2.589 | 23.53 |
-| WorldEdit | 22.766 | 11.518 | 5509.60 | 28.861 | 9960.35 |
+| [AsyncArenasPlus](https://builtbybit.com/resources/asyncarenasplus-fastest-arena-resets.110929/) | 0.234 | 0.196 | 5.30 | 0.609 | 1.74 |
+| [FastArena](https://modrinth.com/plugin/fastarena) | 0.406 | 0.277 | 98.84 | 1.842 | 6.76 |
+| [AsyncArenas](https://builtbybit.com/resources/asyncarenas-fast-arena-resets.46153/) | 0.734 | 0.592 | 121.93 | 4.149 | 5.03 |
+| [Blossom](https://modrinth.com/plugin/blossom-arenas) | 0.734 | 0.596 | 121.40 | 4.721 | 4.89 |
+| [FastAsyncWorldEdit (FAWE)](https://modrinth.com/plugin/fastasyncworldedit) | 0.781 | 0.592 | 121.77 | 4.906 | 4.59 |
+| [NanoArenas](https://www.spigotmc.org/resources/nanoarenas-ultrafast-arena-reset-platinum-migration.130002/) | 0.781 | 0.595 | 122.01 | 3.508 | 4.97 |
+| [Arena Regeneration](https://modrinth.com/plugin/arenaregeneration) | 0.844 | 0.596 | 122.43 | 3.847 | 5.45 |
+| [AreaResetterPro](https://github.com/lgndluke/AreaResetterPro/releases) | 0.953 | 0.593 | 141.34 | 4.170 | 5.89 |
+| [PerfAreaReset](https://builtbybit.com/resources/perfareareset-auto-reset-folia-rdy.97729/) | 1.141 | 0.595 | 126.01 | 4.320 | 4.95 |
+| [AreaReloader-FAWE](https://www.spigotmc.org/resources/areareloader-fawe.106585/) | 3.609 | 5.877 | 896.37 | 2.589 | 23.53 |
+| [WorldEdit](https://modrinth.com/plugin/worldedit) | 22.766 | 11.518 | 5509.60 | 28.861 | 9960.35 |
 
 ## TNT reset
 
 | Implementation | CPU usage (core-s) | Network sent (MiB) | Heap allocated (MiB) | Peak network rate (MiB/s) | Worst tick (ms) |
 |---|---:|---:|---:|---:|---:|
-| AsyncArenasPlus | 0.359 | 0.430 | 14.84 | 0.271 | 2.76 |
-| FastArena | 0.438 | 0.299 | 102.16 | 1.569 | 6.20 |
-| Blossom | 0.703 | 0.597 | 125.35 | 3.873 | 6.02 |
-| FastAsyncWorldEdit (FAWE) | 0.828 | 0.594 | 126.89 | 4.719 | 7.39 |
-| Arena Regeneration | 0.891 | 0.596 | 125.79 | 2.975 | 5.40 |
-| NanoArenas | 0.953 | 0.597 | 124.81 | 3.584 | 5.46 |
-| AsyncArenas | 0.969 | 0.594 | 125.64 | 4.362 | 5.35 |
-| AreaResetterPro | 1.125 | 0.597 | 147.10 | 4.524 | 6.13 |
-| PerfAreaReset | 1.297 | 0.597 | 135.05 | 3.865 | 5.06 |
-| AreaReloader-FAWE | 3.625 | 5.545 | 890.56 | 2.567 | 20.27 |
-| WorldEdit | 19.828 | 11.520 | 5502.73 | 29.728 | 9500.62 |
+| [AsyncArenasPlus](https://builtbybit.com/resources/asyncarenasplus-fastest-arena-resets.110929/) | 0.359 | 0.430 | 14.84 | 0.271 | 2.76 |
+| [FastArena](https://modrinth.com/plugin/fastarena) | 0.438 | 0.299 | 102.16 | 1.569 | 6.20 |
+| [Blossom](https://modrinth.com/plugin/blossom-arenas) | 0.703 | 0.597 | 125.35 | 3.873 | 6.02 |
+| [FastAsyncWorldEdit (FAWE)](https://modrinth.com/plugin/fastasyncworldedit) | 0.828 | 0.594 | 126.89 | 4.719 | 7.39 |
+| [Arena Regeneration](https://modrinth.com/plugin/arenaregeneration) | 0.891 | 0.596 | 125.79 | 2.975 | 5.40 |
+| [NanoArenas](https://www.spigotmc.org/resources/nanoarenas-ultrafast-arena-reset-platinum-migration.130002/) | 0.953 | 0.597 | 124.81 | 3.584 | 5.46 |
+| [AsyncArenas](https://builtbybit.com/resources/asyncarenas-fast-arena-resets.46153/) | 0.969 | 0.594 | 125.64 | 4.362 | 5.35 |
+| [AreaResetterPro](https://github.com/lgndluke/AreaResetterPro/releases) | 1.125 | 0.597 | 147.10 | 4.524 | 6.13 |
+| [PerfAreaReset](https://builtbybit.com/resources/perfareareset-auto-reset-folia-rdy.97729/) | 1.297 | 0.597 | 135.05 | 3.865 | 5.06 |
+| [AreaReloader-FAWE](https://www.spigotmc.org/resources/areareloader-fawe.106585/) | 3.625 | 5.545 | 890.56 | 2.567 | 20.27 |
+| [WorldEdit](https://modrinth.com/plugin/worldedit) | 19.828 | 11.520 | 5502.73 | 29.728 | 9500.62 |
 
 ## Interpretation limits
 We limited this benchmark to plugins that mainly aim to reset large parts of the arena. For instance, implementations that reset arenas by placing only a few blocks per tick on a budget were excluded since they result in a fundamentally different reset "experience".
