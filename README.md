@@ -72,4 +72,4 @@ Also keep in mind that we only ran this with one bot. Outbound network traffic w
 
 ### A short conclusion
 Besides AsyncArenasPlus and FastArena, almost all of these plugins act mainly as wrappers for FastAsyncWorldEdit. for this reason, their numbers are the same for basically all of these scenarios, just that some of these plugins produce higher overhead over FAWE with their reset logic. 
-Also for this reason, besides WorldEdit, almost none of these plugins have a real impact on TPS, since they do as much of the Preparation for the reset on Async Threads. 
+At the tested single-bot load, almost all implementations had median worst-tick times comfortably below the 50 ms tick budget for 20 TPS. Despite the differences in MSPT between plugins, these small tick-time differences are unlikely to be noticeable to a player as server tick lag in this workload; WorldEdit was the clear exception. This does not mean that visible reset-update delays are unnoticeable, or that the same results would hold on a busier server. 
