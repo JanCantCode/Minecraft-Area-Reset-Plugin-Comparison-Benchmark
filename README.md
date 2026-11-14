@@ -2,6 +2,8 @@
 
 Minecraft arena/area reset plugins let server owners save a region and restore it after players modify or destroy it. This benchmark compares the CPU, memory and network costs of restoring damaged terrain with 11 implementations.
 
+**Conflict of interest:** I am the author of AsyncArenas and AsyncArenasPlus, so I have a clear conflict of interest in this comparison. I have done my best to keep the benchmark as neutral as possible.
+
 ## Scenarios
 
 Both scenarios used an 8 × 8 chunk natural landscape we picked randomly in the world, from Y=−64 through Y=319. A bot was online at the arena centre during every reset to ensure that client updates and network traffic would be sent.
