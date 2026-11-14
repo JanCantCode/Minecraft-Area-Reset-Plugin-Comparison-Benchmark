@@ -1,0 +1,102 @@
+{
+  "scenario": "tnt",
+  "aggregation": "median",
+  "measured_runs_per_implementation": 5,
+  "units": {
+    "cpu_usage": "core-seconds",
+    "network_sent": "MiB",
+    "heap_allocated": "MiB",
+    "peak_network_rate": "MiB/s",
+    "worst_tick": "milliseconds"
+  },
+  "results": [
+    {
+      "implementation": "AsyncArenasPlus",
+      "cpu_usage": 0.359375,
+      "network_sent": 0.4300851821899414,
+      "heap_allocated": 14.844329833984375,
+      "peak_network_rate": 0.2710390090942383,
+      "worst_tick": 2.7631
+    },
+    {
+      "implementation": "FastArena",
+      "cpu_usage": 0.4375,
+      "network_sent": 0.29857635498046875,
+      "heap_allocated": 102.16039276123047,
+      "peak_network_rate": 1.568563461303711,
+      "worst_tick": 6.1997
+    },
+    {
+      "implementation": "Blossom",
+      "cpu_usage": 0.703125,
+      "network_sent": 0.5968217849731445,
+      "heap_allocated": 125.3497085571289,
+      "peak_network_rate": 3.873093605041504,
+      "worst_tick": 6.0157
+    },
+    {
+      "implementation": "FastAsyncWorldEdit (FAWE)",
+      "cpu_usage": 0.828125,
+      "network_sent": 0.5943155288696289,
+      "heap_allocated": 126.89464569091797,
+      "peak_network_rate": 4.7191619873046875,
+      "worst_tick": 7.3939
+    },
+    {
+      "implementation": "Arena Regeneration",
+      "cpu_usage": 0.890625,
+      "network_sent": 0.5961360931396484,
+      "heap_allocated": 125.7865219116211,
+      "peak_network_rate": 2.974900245666504,
+      "worst_tick": 5.3964
+    },
+    {
+      "implementation": "NanoArenas",
+      "cpu_usage": 0.953125,
+      "network_sent": 0.5965690612792969,
+      "heap_allocated": 124.80830383300781,
+      "peak_network_rate": 3.583615303039551,
+      "worst_tick": 5.4627
+    },
+    {
+      "implementation": "AsyncArenas",
+      "cpu_usage": 0.96875,
+      "network_sent": 0.5935878753662109,
+      "heap_allocated": 125.64290618896484,
+      "peak_network_rate": 4.362104415893555,
+      "worst_tick": 5.3465
+    },
+    {
+      "implementation": "AreaResetterPro",
+      "cpu_usage": 1.125,
+      "network_sent": 0.5970754623413086,
+      "heap_allocated": 147.095458984375,
+      "peak_network_rate": 4.523965835571289,
+      "worst_tick": 6.1256
+    },
+    {
+      "implementation": "PerfAreaReset",
+      "cpu_usage": 1.296875,
+      "network_sent": 0.5971336364746094,
+      "heap_allocated": 135.05482482910156,
+      "peak_network_rate": 3.8653030395507812,
+      "worst_tick": 5.0623
+    },
+    {
+      "implementation": "AreaReloader-FAWE",
+      "cpu_usage": 3.625,
+      "network_sent": 5.545066833496094,
+      "heap_allocated": 890.5577163696289,
+      "peak_network_rate": 2.5668296813964844,
+      "worst_tick": 20.2724
+    },
+    {
+      "implementation": "WorldEdit",
+      "cpu_usage": 19.828125,
+      "network_sent": 11.520001411437988,
+      "heap_allocated": 5502.726387023926,
+      "peak_network_rate": 29.728053092956543,
+      "worst_tick": 9500.6169
+    }
+  ]
+}
